@@ -1,0 +1,475 @@
+html,body{
+    height: 100%;
+}
+.main{
+    width:3.75rem;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.swiper-container,.swiper-wrapper,.swiper-slide{
+    width:100%;height: 100%;
+}
+.slide1{
+    width:100%;height: 100%;
+    background: -webkit-linear-gradient(top left,lightgreen,darkcyan,lightgray)
+}
+.slide2{
+    width:100%;height: 100%;
+    background: -webkit-linear-gradient(top ,rgba(22,65,12,0.4),#fffefe,#ffffff);
+    background-size: cover;
+}
+.slide3{
+    width:100%;height: 100%;
+    background: -webkit-linear-gradient(top left,rgba(22,22,22,0.4),rgba(22,55,78,0.4),rgba(35,96,22,0.4));
+    background-size: cover;
+}
+
+.slide4{
+    width:100%;height: 100%;
+    background: -webkit-linear-gradient(top,rgba(96,254,39,0.4),rgba(95,123,78,0.4),rgba(255,255,255,0.4)),rgba(255,255,255,0.4));
+    background-size: cover;
+}
+.swiper-slide p{
+    position: absolute;
+    /*opacity: 0;*/
+}
+
+.slide1 p:nth-child(1){
+    top:0.1rem;
+    left:1.18rem;
+    width: 1.37rem;
+    height:1.40rem;
+    background: url("../img1/work.png") no-repeat;
+    background-size: cover;
+}
+#slide1 p:nth-child(1){
+
+    animation:flip 1s 0s both;
+    -webkit-animation:flip 1s 0s both;
+}
+.slide1 p:nth-child(2){
+    top: 1.7rem;
+    left:0.2rem;
+    font-size: 0.25rem;
+    opacity: 0;
+    filter:alpha(opacity:50)
+    color: black;
+}
+#slide1 p:nth-child(2){
+    animation:zoomIn 1s 0.3s both;
+    -webkit-animation:zoomIn 1s 0.3s both;
+}
+.slide1 p:nth-child(3){
+    top: 2.3rem;
+    left:0.2rem;
+    font-size: 0.25rem;
+    opacity: 0;
+    filter:alpha(opacity:50)
+color: black;
+}
+#slide1 p:nth-child(3){
+    animation:zoomIn 1s 0.6s both;
+    -webkit-animation:zoomIn 1s 0.6s both;
+}
+.slide1 p:nth-child(4){
+    top: 2.9rem;
+    left:0.2rem;
+    font-size: 0.25rem;;
+    opacity: 0;
+    filter:alpha(opacity:50)
+color: black; }
+#slide1 p:nth-child(4){
+animation:zoomIn 1s 0.9s both;
+    -webkit-animation:zoomIn 1s 0.9s both;
+     }
+.slide1 p:nth-child(5){
+    top: 3.3rem;
+    left:0.2rem;
+    font-size: 0.5rem;
+    opacity: 0;
+    text-decoration: underline;
+color: red;
+    filter:alpha(opacity:50)
+color: black;
+}
+#slide1 p:nth-child(5){
+    animation:zoomIn 1s 1.2s both;
+    -webkit-animation:zoomIn 1s 1.2s both;
+}
+.slide1 p:nth-child(6){
+    top: 4.1rem;
+    left:0.2rem;
+    font-size: 0.25rem;
+    opacity: 0;
+    filter:alpha(opacity:50)
+color: black;
+}
+#slide1 p:nth-child(6){
+    animation:zoomIn 1s 1.5s both;
+    -webkit-animation:zoomIn 1s 1.5s both;
+}
+.slide1 p:nth-child(7){
+    top: 5.0rem;
+    left:0.2rem;
+    font-size: 0.25rem;
+    opacity: 0;
+    filter:alpha(opacity:50)
+color: black;
+}
+#slide1 p:nth-child(7){
+    animation:zoomIn 1s 1.8s both;
+    -webkit-animation:zoomIn 1s 1.8s both;
+}
+.slide1 p:nth-child(8){
+   top:0.2rem;
+    right: 0.3rem;
+    width: 0.29rem;
+    height: 0.39rem;
+    background: url("../img1/yezi.png") no-repeat 0 0;
+    background-size: cover;
+    z-index: 5;
+}
+#slide1 p:nth-child(7){
+    animation:zoomIn 1s 2.1s both;
+    -webkit-animation:zoomIn 1s 2.1s both;
+}
+#slide1 p:nth-child(8){
+    animation: move1 1s infinite both;
+}
+#slide1 p{
+    opacity: 1;
+}
+.slide2 p:nth-child(2){
+    top:1.55rem;
+    left:0.3rem;
+    width: 3.35rem;
+    font-size: 0.25rem;
+    line-height: 0.4rem;
+    z-index: 2;
+}
+#slide2 p:nth-child(1){
+    animation: move1 1s linear infinite both;
+}
+.slide2 p:nth-child(1){
+    top:0.1rem;
+    left:1.4rem;
+    width: 1rem;
+    height:1.02rem;
+    background: url("../img1/man.png") no-repeat 0 0;
+    background-size: cover;
+}
+#slide2 p:nth-child(2){
+    animation:zoomIn 1s 0.9s both;
+    -webkit-animation:zoomIn 1s 0.9s both;
+}
+#slide2 p:nth-child(3){
+    animation:bounceInLeft 1s 0.6s both;
+    -webkit-animation:bounceInLeft 1s 0.6s both;
+}
+.slide2  span{
+    opacity: 0;
+}
+.slide2 p:nth-child(3){
+    top:3.3rem;
+    left:0.7rem;
+    width: 2.7rem;
+    height:2.7rem;
+    background: url("../img1/ren.gif") no-repeat;
+    background-size: cover;
+}
+.slide2 p:nth-child(4){
+    top:3.5rem;
+    left:0.2rem;
+    width: 0.5rem;
+    height:0.65rem;
+    background: url("../img1/sun.gif") no-repeat;
+    background-size: cover;
+}
+#slide2 p:nth-child(4){
+    animation:swing 1s 0.6s both;
+    -webkit-animation:swing 1s 0.6s both;
+}
+.slide1 p{
+    opacity: 0;
+    filter:alpha(opacity:0)
+}
+.slide3 p:nth-child(1){
+    top: 0.2rem;
+    left: 0.68rem;
+    font-size: 0.4rem;
+}
+#slide3 p:nth-child(1){
+    animation:flip 1s 0s both;
+    -webkit-animation:flip 1s 0s both;
+}
+.slide3 p:nth-child(2){
+    top: 1rem;
+    left: 0.68rem;
+    font-size: .25rem;
+}
+#slide2 p:nth-child(2){
+    animation:zoomoutRight 1s 0.3s both;
+    -webkit-animation:zoomoutRight 1s 0.3s both;
+}
+.slide3 p i{
+    display: inline-block;
+    width: .27rem;
+    height: .27rem;
+
+}
+.slide3 p:nth-child(3){
+    top: 1.5rem;
+    left: 0.68rem;
+    font-size: .25rem;
+}
+#slide3 p:nth-child(3){
+    animation:bounceInUp 1s 0.6s both;
+    -webkit-animation:bounceInUp 1s 0.6s both;
+}
+.slide3 p:nth-child(4){
+    top: 2.0rem;
+    left: 0.68rem;
+    font-size: .25rem;
+}
+#slide3 p:nth-child(2){
+    animation:bounceInUp 1s 0.9s both;
+    -webkit-animation:bounceInUp 1s 0.9s both;
+}
+.slide3 p:nth-child(5){
+    top: 2.5rem;
+    left: 0.68rem;
+    font-size: .25rem;
+}
+#slide3 p:nth-child(4){
+    animation:bounceInRight 1s 1.2s both;
+    -webkit-animation:bounceInRight 1s 1.2s both;
+}
+.slide3 p:nth-child(6){
+    top:3rem;
+    left: 0.68rem;
+    font-size: .25rem;
+}
+#slide3 p:nth-child(5){
+    animation:bounceInRight 1s 1.5s both;
+    -webkit-animation:bounceInRight 1s 1.5s both;
+}
+#slide3 p:nth-child(6){
+    animation:bounceInUp 1s 1.8s both;
+    -webkit-animation:bounceInUp 1s 1.8s both;
+}
+.slide3 p:nth-child(2) i{
+    background: url("../img1/qiaodaima.png") no-repeat 0 0;
+    background-size:cover;
+}
+.slide3 p:nth-child(3) i{
+    background: url("../img1/sing.png") no-repeat 0 0;
+    background-size:cover;
+}
+.slide3 p:nth-child(4) i{
+    background: url("../img1/zuozuobiji.png") no-repeat 0 0;
+    background-size:cover;
+}
+.slide3 p:nth-child(5) i{
+    background: url("../img1/looktime.png") no-repeat 0 0;
+    background-size:cover;
+}
+.slide3 p:nth-child(6) i{
+    background: url("../img1/kankandhu.png") no-repeat 0 0;
+    background-size:cover;
+}
+.slide3 p:nth-child(7){
+    top: 4.0rem;
+    left: .3rem;
+    width: .58rem;
+    height: .74rem;
+    background: url("../img1/pen.png") no-repeat 0 0;
+    background-size:cover;
+}
+#slide3 p:nth-child(7){
+    animation:bounceInRight 1s 0s both;
+    -webkit-animation:bounceInRight 1s 0s both;
+}
+.slide3 p:nth-child(8){
+    top: 4.0rem;
+    right: .2rem;
+    width: .37rem;
+    height: .60rem;
+    background: url("../img1/shu.png") no-repeat 0 0;
+    background-size:cover;
+}
+#slide3 p:nth-child(8){
+    animation:move2 1s 2.4s both;
+    -webkit-animation:move2 1s 2.4s linear infinite both;
+}
+.slide3 p:nth-child(9){
+    top: 3.7rem;
+    right: 1.8rem;
+    width: .3rem;
+   font-size: .4rem;
+    color: #00E1FF;
+    font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+#slide3 p:nth-child(9){
+    animation:bounceInRight 1s 2.7s both;
+    -webkit-animation:bounceInRight 1s 2.7s infinite both;
+}
+.slide4 p{
+   /*-webkit-text-stroke: .02rem green;*/
+    text-shadow : -0.01rem -0.01rem 0.01rem  lightgreen;
+
+font-size: .26rem;
+    width:1.4rem;
+    color: blue;
+}
+.slide4 p:nth-child(1){
+    top: .2rem;
+    left: .05rem;
+    z-index: 1;
+}
+#slide4 p:nth-child(1){
+    animation:bounceInRight 1s 0.5s both;
+    -webkit-animation:bounceInRight 1s 0.5s both;
+}
+.slide4 p:nth-child(2){
+    top: 0.7rem;
+    left: .05rem;
+    z-index: 1;
+}
+#slide4 p:nth-child(2){
+    animation:bounceInUp 1s 0.7s both;
+    -webkit-animation:bounceInUp 1s 0.7s both;
+}
+.slide4 p:nth-child(3){
+    top: 1.2rem;
+    left: .05rem;
+    z-index: 1;
+}
+#slide4 p:nth-child(3){
+    animation:bounceInRight 1s 1s both;
+    -webkit-animation:bounceInRight 1s 1s both;
+}
+.slide4 p:nth-child(4){
+    top: 2.0rem;
+    left: .05rem;
+    z-index: 1;
+}
+#slide4 p:nth-child(4){
+    animation:zoomIn 1s 1.3s both;
+    -webkit-animation:zoomIn 1s 1.3s both;
+}
+.slide4 p:nth-child(5){
+    top: 2.9rem;
+    width: 3.33rem;
+    height: 3.33rem;
+    background:url("../img1/follow.gif") no-repeat center;
+    /*background-size: cover;*/
+}
+#slide4 p:nth-child(5){
+    animation:bounceInDown 1s 1.5s both;
+    -webkit-animation:bounceInRight 1s 1.6s both;
+}
+.slide4 p:nth-child(6){
+    right: -0.4rem;
+    width: 2.44rem;
+    height: 2.44rem;
+    background:url("../img1/girl.gif") no-repeat center;
+    /*background-size: cover;*/
+}
+#slide4 p:nth-child(6){
+    animation:bounceInRight 1s 1.5s both;
+    -webkit-animation:bounceInRight 2s 0s both;
+}
+.music{
+    width: 0.6rem;
+    height: 0.6rem;
+    position: absolute;
+    top: 0.2rem;
+    right: .2rem;
+    z-index: 5;
+    background: url("../audio/music.svg") no-repeat;
+    background-size: cover;
+    opacity: 1;
+}
+.musicMove{
+    opacity: 1;
+    animation:move 1s infinite linear both;
+    -webkit-animation:move 1s infinite linear both;
+}
+@keyframes move1  {
+    0%{
+        transform: rotate(0deg);
+    }
+    20%{
+        transform: rotate(50deg);
+    }
+    50%{
+        transform: rotate(120deg);
+    }
+    70%{
+        transform: rotate(240deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+@keyframes move2  {
+    0%{
+        transform: rotate(5deg);
+    }
+    10%{
+        transform: rotate(10deg);
+    }
+    20%{
+        transform: rotate(15deg);
+    }
+    30%{
+        transform: rotate(10deg);
+    }
+   40%{
+        transform: rotate(5deg);
+    }
+    50%{
+        transform: rotate(0deg);
+    }
+    60%{
+        transform: rotate(-5deg);
+    }
+    70%{
+        transform: rotate(-0deg);
+    }
+    80%{
+        transform: rotate(-15deg);
+    }
+    90%{
+        transform: rotate(-10deg);
+    }
+    100%{
+        transform: rotate(-5deg);
+    }
+}
+@keyframes move {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes move {
+    0%{
+        -webkit-transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(360deg);
+    }
+}
+/*用户可能出于安全的考虑禁用cookie 例如浏览的无痕浏览模式Ctrl+Shift+N开启谷歌浏览器的无痕浏览模式
+360等杀毒软件或者浏览器清除垃圾都有可能把cookie删除掉，存储不稳定
+cookie存储的东西有过期影响 ，到期会删除   cookie不单存是本地存储，他和服务期间还有猫腻
+真实项目中，像用户名等一些基本信息我们都用cookie存储，还有需要兼容的也需要cookie存储
+像js css一些缓存数据文件，我们可以使用webStorage存储（尤其移动端）display:block;  强大的生态链 man women‘
+是否已经有了真感情 何去何从/
+
+
